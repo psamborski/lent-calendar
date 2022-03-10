@@ -18,3 +18,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_OAZA_JAKUBOWA }}'
           channelId: live
           projectId: oaza-jakubowa
+          target: wielki-post-u-jakuba
