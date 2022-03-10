@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "build",
     "site":"wielki-post-u-jakuba",
     "ignore": [
       "firebase.json",
