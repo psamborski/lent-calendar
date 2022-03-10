@@ -1,0 +1,16 @@
+@import '../../../@variables.scss';
+
+.slider-arrow {
+  color: $violet;
+  opacity: .8;
+  font-size: 3em;
+  transition-duration: .2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    opacity: 1;
+  }
+}

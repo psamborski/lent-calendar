@@ -171,6 +171,7 @@
       }
     ],
     "react/button-has-type": "warn",
+    "react/destructuring-assignment": "off",
     "react/display-name": [
       "off",
       {
