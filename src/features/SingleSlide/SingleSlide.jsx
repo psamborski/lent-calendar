@@ -22,7 +22,11 @@ function SingleSlide(props) {
               >
                 <div className='day-name'>{daysOfWeek?.[dayShort]}</div>
                 <div className='day-task'>
-                  {task || '🔜'}
+                  {
+                    (props?.currentWeek || 0) >= (props?.weekData?.id || 0)
+                      ? task || '🔜'
+                      : '🔜'
+                  }
                 </div>
               </div>
             ))}

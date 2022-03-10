@@ -74,6 +74,7 @@ function WeeksSlider() {
             (weekData) => (
               <SingleSlide
                 key={`slide-week-${weekData.id}`}
+                currentWeek={currentWeek + 1} // + 1 because weeks ids start with 1
                 weekData={weekData}
               />
               ),
